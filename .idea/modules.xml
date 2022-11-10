@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CentroVacacional/CentroVacacional.iml" filepath="$PROJECT_DIR$/CentroVacacional/CentroVacacional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ProyectoFullStack.iml" filepath="$PROJECT_DIR$/.idea/ProyectoFullStack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CentroVacacional/servidor-eureka/servidor-eureka.iml" filepath="$PROJECT_DIR$/CentroVacacional/servidor-eureka/servidor-eureka.iml" />
+    </modules>
+  </component>
+</project>
