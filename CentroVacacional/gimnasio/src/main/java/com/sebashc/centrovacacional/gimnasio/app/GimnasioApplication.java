@@ -1,4 +1,4 @@
-package com.sebashc.centro.vacacional.gimnasio.gimnasio;
+package com.sebashc.centrovacacional.gimnasio.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

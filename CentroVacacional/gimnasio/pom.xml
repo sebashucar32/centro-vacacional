@@ -7,11 +7,11 @@
 		<artifactId>CentroVacacional</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
-	<groupId>com.sebashc.centro.vacacional.gimnasio</groupId>
+	<groupId>com.sebashc.centrovacacional.gimnasio</groupId>
 	<artifactId>gimnasio</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>gimnasio</name>
-	<description>microservicio reactivo para el gimnasio</description>
+	<description>microservicio para el gimnasio</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -24,15 +24,9 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>de.flapdoodle.embed</groupId>
-			<artifactId>de.flapdoodle.embed.mongo</artifactId>
 			<scope>test</scope>
 		</dependency>
 		<dependency>

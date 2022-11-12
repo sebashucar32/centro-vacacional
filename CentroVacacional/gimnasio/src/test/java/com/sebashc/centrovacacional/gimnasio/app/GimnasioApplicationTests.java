@@ -1,4 +1,4 @@
-package com.sebashc.centro.vacacional.gimnasio.gimnasio;
+package com.sebashc.centrovacacional.gimnasio.app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
