@@ -13,6 +13,10 @@ import static org.springframework.web.reactive.function.server.RequestPredicates
 public class router {
     @Bean
     public RouterFunction<ServerResponse> routes(PlanHandler handler) {
-        return route(GET("/api/planes/mostrar"), handler::mostrarPlanes);
+        return route(GET("/gimnasio/mostrarPlanes"), handler::mostrarPlanes)
+                .andRoute(GET("gimnasio/verPlan/{id}"), handler::verPlan)
+                .andRoute(POST("/gimnasio/guardarPlan"), handler::guardarPlan)
+                .andRoute(PUT("gimnasio/actualizarPlan/{id}"), handler::editarPlan)
+                .andRoute(DELETE("gimnasio/eliminarPlan/{id}"), handler::eliminarPlan);
     }
 }
