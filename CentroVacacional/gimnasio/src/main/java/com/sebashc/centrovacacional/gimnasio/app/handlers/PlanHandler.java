@@ -2,12 +2,11 @@ package com.sebashc.centrovacacional.gimnasio.app.handlers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 import com.sebashc.centrovacacional.gimnasio.app.models.documents.Plan;
 import com.sebashc.centrovacacional.gimnasio.app.services.PlanService;
 
+import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.BodyInserters;
 import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
@@ -15,8 +14,7 @@ import reactor.core.publisher.Mono;
 
 import java.net.URI;
 
-@RestController
-@RequestMapping("/api/planes")
+@Component
 public class PlanHandler {
     @Autowired
     private PlanService service;
@@ -67,7 +65,7 @@ public class PlanHandler {
         Mono<Plan> planDb = service.findById(id);
 
         return planDb.flatMap(p -> service.delete(p)
-                .then(ServerResponse.notFound().build()))
+                .then(ServerResponse.noContent().build()))
                 .switchIfEmpty(ServerResponse.notFound().build());
     }
 }
