@@ -20,6 +20,7 @@
         <module>servidor-eureka</module>
         <module>gimnasio</module>
         <module>supermercado</module>
+        <module>app-viajes</module>
     </modules>
 
     <properties>

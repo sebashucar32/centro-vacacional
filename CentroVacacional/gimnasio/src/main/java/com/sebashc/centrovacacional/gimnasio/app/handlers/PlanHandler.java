@@ -12,6 +12,8 @@ import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
 import reactor.core.publisher.Mono;
 
+
+import java.io.OutputStreamWriter;
 import java.net.URI;
 
 @Component
@@ -27,7 +29,7 @@ public class PlanHandler {
     public Mono<ServerResponse> verPlan(ServerRequest request) {
         String id = request.pathVariable("id");
 
-        return service.findById(id).flatMap( p -> ServerResponse.ok()
+        return service.findById(id).flatMap(p -> ServerResponse.ok()
                         .contentType(MediaType.APPLICATION_JSON)
                         .body(BodyInserters.fromValue(p)))
                 .switchIfEmpty(ServerResponse.notFound().build());
