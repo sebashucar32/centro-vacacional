@@ -1,0 +1,22 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: "agencia-viajes"
+  devtools:
+    add-properties: false
+  profiles:
+    include: null
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/postgres?currentSchema=agencia_viajes"
+    username: "postgres"
+    password: "root"
+    driverClassName: "org.postgresql.Driver"
+  jpa:
+    databasePlatform: "org.hibernate.dialect.PostgreSQLDialect"
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
