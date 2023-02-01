@@ -1,7 +1,7 @@
-package com.sebastianhc.agencia.viajes.agenciaviajes.dominio.usecase;
+package com.sebastianhc.agencia.viajes.agenciaviajes.dominios.usecase;
 
-import com.sebastianhc.agencia.viajes.agenciaviajes.dominio.model.Paseo;
-import com.sebastianhc.agencia.viajes.agenciaviajes.dominio.model.gateways.PaseoGateway;
+import com.sebastianhc.agencia.viajes.agenciaviajes.dominios.model.Paseo;
+import com.sebastianhc.agencia.viajes.agenciaviajes.dominios.model.gateways.PaseoGateway;
 import lombok.RequiredArgsConstructor;
 import reactor.core.publisher.Flux;
 

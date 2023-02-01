@@ -1,7 +1,7 @@
-package com.sebastianhc.agencia.viajes.agenciaviajes.infraestructura.entrypoints.apirest;
+package com.sebastianhc.agencia.viajes.agenciaviajes.infraestructuras.entrypoints.apirest;
 
-import com.sebastianhc.agencia.viajes.agenciaviajes.dominio.model.Paseo;
-import com.sebastianhc.agencia.viajes.agenciaviajes.infraestructura.helpers.genericosusecase.PaseoUseCaseG;
+import com.sebastianhc.agencia.viajes.agenciaviajes.dominios.model.Paseo;
+import com.sebastianhc.agencia.viajes.agenciaviajes.infraestructuras.helpers.genericosusecase.PaseoUseCaseG;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.MediaType;

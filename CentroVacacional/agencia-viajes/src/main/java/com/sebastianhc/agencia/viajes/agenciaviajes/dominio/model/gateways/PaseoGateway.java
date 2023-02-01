@@ -1,6 +1,6 @@
-package com.sebastianhc.agencia.viajes.agenciaviajes.dominio.model.gateways;
+package com.sebastianhc.agencia.viajes.agenciaviajes.dominios.model.gateways;
 
-import com.sebastianhc.agencia.viajes.agenciaviajes.dominio.model.Paseo;
+import com.sebastianhc.agencia.viajes.agenciaviajes.dominios.model.Paseo;
 import reactor.core.publisher.Flux;
 
 public interface PaseoGateway {

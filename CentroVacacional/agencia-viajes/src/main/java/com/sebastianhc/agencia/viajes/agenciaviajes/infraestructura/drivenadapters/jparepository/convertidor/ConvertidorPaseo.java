@@ -1,9 +1,9 @@
-package com.sebastianhc.agencia.viajes.agenciaviajes.infraestructura.drivenadapters.jparepository.convertidor;
+package com.sebastianhc.agencia.viajes.agenciaviajes.infraestructuras.drivenadapters.jparepository.convertidor;
 
-import com.sebastianhc.agencia.viajes.agenciaviajes.dominio.model.Paseo;
-import com.sebastianhc.agencia.viajes.agenciaviajes.dominio.model.Tour;
-import com.sebastianhc.agencia.viajes.agenciaviajes.infraestructura.drivenadapters.jparepository.paseo.PaseoData;
-import com.sebastianhc.agencia.viajes.agenciaviajes.infraestructura.drivenadapters.jparepository.tour.TourData;
+import com.sebastianhc.agencia.viajes.agenciaviajes.dominios.model.Paseo;
+import com.sebastianhc.agencia.viajes.agenciaviajes.dominios.model.Tour;
+import com.sebastianhc.agencia.viajes.agenciaviajes.infraestructuras.drivenadapters.jparepository.paseo.PaseoData;
+import com.sebastianhc.agencia.viajes.agenciaviajes.infraestructuras.drivenadapters.jparepository.tour.TourData;
 
 import java.util.List;
 import java.util.stream.Collectors;

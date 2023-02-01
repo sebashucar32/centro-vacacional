@@ -1,4 +1,4 @@
-package com.sebastianhc.agencia.viajes.agenciaviajes.infraestructura.drivenadapters.jparepository.tour;
+package com.sebastianhc.agencia.viajes.agenciaviajes.infraestructuras.drivenadapters.jparepository.tour;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

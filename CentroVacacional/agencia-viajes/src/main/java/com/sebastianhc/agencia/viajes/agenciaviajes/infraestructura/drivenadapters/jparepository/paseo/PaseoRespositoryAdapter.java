@@ -1,14 +1,14 @@
-package com.sebastianhc.agencia.viajes.agenciaviajes.infraestructura.drivenadapters.jparepository.paseo;
+package com.sebastianhc.agencia.viajes.agenciaviajes.infraestructuras.drivenadapters.jparepository.paseo;
 
-import com.sebastianhc.agencia.viajes.agenciaviajes.dominio.model.Paseo;
-import com.sebastianhc.agencia.viajes.agenciaviajes.dominio.model.gateways.PaseoGateway;
+import com.sebastianhc.agencia.viajes.agenciaviajes.dominios.model.Paseo;
+import com.sebastianhc.agencia.viajes.agenciaviajes.dominios.model.gateways.PaseoGateway;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import reactor.core.publisher.Flux;
 
 import java.util.List;
 
-import static com.sebastianhc.agencia.viajes.agenciaviajes.infraestructura.drivenadapters.jparepository.convertidor.ConvertidorPaseo.convertirPaseosDataAPaseos;
+import static com.sebastianhc.agencia.viajes.agenciaviajes.infraestructuras.drivenadapters.jparepository.convertidor.ConvertidorPaseo.convertirPaseosDataAPaseos;
 
 @Repository
 public class PaseoRespositoryAdapter implements PaseoGateway {

@@ -1,7 +1,7 @@
-package com.sebastianhc.agencia.viajes.agenciaviajes.infraestructura.helpers.genericosusecase;
+package com.sebastianhc.agencia.viajes.agenciaviajes.infraestructuras.helpers.genericosusecase;
 
-import com.sebastianhc.agencia.viajes.agenciaviajes.dominio.model.gateways.PaseoGateway;
-import com.sebastianhc.agencia.viajes.agenciaviajes.dominio.usecase.PaseoUseCase;
+import com.sebastianhc.agencia.viajes.agenciaviajes.dominios.model.gateways.PaseoGateway;
+import com.sebastianhc.agencia.viajes.agenciaviajes.dominios.usecase.PaseoUseCase;
 import org.springframework.stereotype.Service;
 
 @Service

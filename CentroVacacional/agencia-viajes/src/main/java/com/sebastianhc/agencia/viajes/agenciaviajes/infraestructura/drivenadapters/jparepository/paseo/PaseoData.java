@@ -1,6 +1,6 @@
-package com.sebastianhc.agencia.viajes.agenciaviajes.infraestructura.drivenadapters.jparepository.paseo;
+package com.sebastianhc.agencia.viajes.agenciaviajes.infraestructuras.drivenadapters.jparepository.paseo;
 
-import com.sebastianhc.agencia.viajes.agenciaviajes.infraestructura.drivenadapters.jparepository.tour.TourData;
+import com.sebastianhc.agencia.viajes.agenciaviajes.infraestructuras.drivenadapters.jparepository.tour.TourData;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
