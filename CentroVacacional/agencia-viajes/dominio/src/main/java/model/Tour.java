@@ -1,4 +1,4 @@
-package com.sebastianhc.agencia.viajes.agenciaviajes.dominio.model;
+package model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
