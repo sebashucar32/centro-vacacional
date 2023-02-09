@@ -1,4 +1,8 @@
 package model.gateways;
 
-public class PaseoGateway {
+import model.Paseo;
+import reactor.core.publisher.Flux;
+
+public interface PaseoGateway {
+    Flux<Paseo> buscarPaseos();
 }
