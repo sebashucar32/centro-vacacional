@@ -1,8 +1,8 @@
 package com.sebastianhc.agencia.viajes.agenciaviajes.infraestructura.helpers.genericosusecase;
 
-import model.gateways.PaseoGateway;
+import com.agencia.viajes.dominio.model.gateways.PaseoGateway;
 import org.springframework.stereotype.Service;
-import usecase.PaseoUseCase;
+import com.agencia.viajes.dominio.usecase.PaseoUseCase;
 
 @Service
 public class PaseoUseCaseG extends PaseoUseCase {

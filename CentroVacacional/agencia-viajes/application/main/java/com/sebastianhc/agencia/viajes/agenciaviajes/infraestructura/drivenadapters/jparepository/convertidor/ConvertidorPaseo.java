@@ -2,8 +2,8 @@ package com.sebastianhc.agencia.viajes.agenciaviajes.infraestructura.drivenadapt
 
 import com.sebastianhc.agencia.viajes.agenciaviajes.infraestructura.drivenadapters.jparepository.paseo.PaseoData;
 import com.sebastianhc.agencia.viajes.agenciaviajes.infraestructuras.drivenadapters.jparepository.tour.TourData;
-import model.Paseo;
-import model.Tour;
+import com.agencia.viajes.dominio.model.Paseo;
+import com.agencia.viajes.dominio.model.Tour;
 
 import java.util.List;
 import java.util.stream.Collectors;

@@ -3,7 +3,7 @@ package com.sebastianhc.agencia.viajes.agenciaviajes.infraestructura.entrypoints
 import com.sebastianhc.agencia.viajes.agenciaviajes.infraestructura.helpers.genericosusecase.PaseoUseCaseG;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import model.Paseo;
+import com.agencia.viajes.dominio.model.Paseo;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

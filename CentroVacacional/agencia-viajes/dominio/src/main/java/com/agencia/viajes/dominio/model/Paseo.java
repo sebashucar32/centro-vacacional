@@ -1,4 +1,4 @@
-package model;
+package com.agencia.viajes.dominio.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

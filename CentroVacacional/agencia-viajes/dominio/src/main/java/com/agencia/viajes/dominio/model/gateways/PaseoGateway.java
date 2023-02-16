@@ -1,6 +1,6 @@
-package model.gateways;
+package com.agencia.viajes.dominio.model.gateways;
 
-import model.Paseo;
+import com.agencia.viajes.dominio.model.Paseo;
 import reactor.core.publisher.Flux;
 
 public interface PaseoGateway {

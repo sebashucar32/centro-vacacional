@@ -1,7 +1,7 @@
 package com.sebastianhc.agencia.viajes.agenciaviajes.infraestructura.drivenadapters.jparepository.paseo;
 
-import model.Paseo;
-import model.gateways.PaseoGateway;
+import com.agencia.viajes.dominio.model.Paseo;
+import com.agencia.viajes.dominio.model.gateways.PaseoGateway;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import reactor.core.publisher.Flux;
